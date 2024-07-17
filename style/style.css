@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgba(17, 17, 17, 1);
+}
+
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+.brand{
+   color:rgba(230, 83, 60, 1);
+   font-weight: 800;
+   line-height: 18px;
+}
+/* drak 02 */
+.text-gray{
+    color: rgba(255, 255, 255, 1);
+}
+/* dark 03 */
+.text-light-gray{
+    color: #727272;
+}
+/* header styles */
+/* navbar related styles */
+.navbar{
+    justify-content: space-between;
+    border: 2px solid;
+ 
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+.nav-link-1{
+    background-color:rgba(230, 83, 60, 1) ;
+    color: white;
+    border-radius: 46px;
+    
+
+}
+
