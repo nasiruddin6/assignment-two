@@ -19,6 +19,7 @@
    color:rgba(230, 83, 60, 1);
    font-weight: 800;
    line-height: 18px;
+   font-size: 35px;
 }
 /* drak 02 */
 .text-gray{
@@ -28,28 +29,39 @@
 .text-light-gray{
     color: #727272;
 }
+
 /* header styles */
 /* navbar related styles */
 .navbar{
     
-    border: 2px solid;
+    /* border: 2px solid white; */
     justify-content: space-between;
+    /* margin: 0 auto; */
 }
 
 .nav-item{
     list-style: none;
-    
+    /* padding: 0 20px;    */
+}
+
+.nav-links{
+    border: 0.1px solid rgba(128, 128, 128, 0.362);
+    font-size: 20px;
+    margin:auto 0;
+    padding: 10px;
+    border-radius: 50px;
 }
 
 .nav-link{
     text-decoration: none;
-    margin-left: 30px;
+    padding: 0 30px;
+    
 }
 .nav-link-1{
     background-color:rgba(230, 83, 60, 1) ;
     color: white;
-    padding: 5px 10px;
-    border-radius: 30px;
+    padding: 9px 20px;
+    border-radius: 50px;
     text-decoration: none;
     
 }
@@ -57,33 +69,42 @@
 .banner{
     border: 2px solid white;
     color: rgba(255, 255, 255, 1);
-    width: 520px;
-    height: 282px;
-    
+    width: 600px;
+    height: auto; 
+    }
+
+    .banner h1{
+        font-size: 75px;
     }
     .banner p{
         color:  rgba(255, 255, 255, 0.5);
+        margin-bottom: 30px;
     }
 
 .btn-1{
     background-color:rgba(230, 83, 60, 1) ;
+    margin-right: 20px;
     color: white;
+    font-size: 20px;
     border-radius:40px;
-    padding: 5px 10px;
+    padding: 15px 40px;
 }
 .btn-2{
     background-color: black;
     color: white;
+    font-size: 20px;
     border-radius:40px;
-    padding: 5px 10px;
+    padding: 15px 40px;
 
 }
+
+
 .banner-section {
     border: 2px solid white;
     justify-content: space-between;
     align-items: center;
-    height: 580px;
-    width: 100&;
+    height: 620px;
+    width: 100%;
     margin-top:50px;
     
 }
@@ -92,8 +113,8 @@
 
 .images{
     border: 2px solid red;
-    width: 350px;
-    height: 580px;
+    width: 450px;
+    height: 100%;
     margin-right: 30px;
     background-image: url(../images/images\ 2.png);
     background-position: center;
@@ -101,17 +122,23 @@
 }
 
 .img-box-one{
-    width: 193px;
-    max-height: 98px;
+    width: 180px;
+    max-height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    text-align: center;
-    padding: 35px 20px;
+    /* text-align: center; */
+    padding: 20px 20px;
     margin-top: 100px;
-    margin-left: 240px;
+    margin-left: 280px;
     background-color: rgba(48, 48, 48, 0.9);
     line-height: 5px;
     border: none;
     border-radius: 12px;
+}
+.img-box-one h2{
+    font-size: 50px;
 }
 
 .img-box-two{
@@ -137,3 +164,213 @@
     border-radius: 50%;
     background-color: rgb(230, 83, 60);
 }
+
+/* main-tag */
+
+.habits{
+    
+    margin: 0 100px;
+    color: white;
+}
+.text-box{
+   text-align: center;
+   margin-top: 100px;
+}
+.text-box h2{
+    font-size: 50px;
+}
+.four-habits{
+    align-items: center;
+    border: 2px solid white;
+    display: flex;
+   
+} 
+.img-round img{
+    align-items: center;
+   border-radius: 70px;
+}
+/* .img-round h2{
+    text-align: center;
+} */
+/* .img-round p{
+    text-align: center;
+} */
+
+/* run-img-style */
+
+.run{
+    justify-content: space-between;
+    border: 2px solid white;
+    display: flex;
+    background-color: rgb(34, 34, 34);
+    margin-top: 100px;
+}
+.run-text h2{
+    padding: 20px;
+}
+.run-text p{
+    padding: 20px;
+}
+.run-img img{
+    border-radius: 50px;
+    padding-top: 15px;
+    padding-right:15px;
+    padding-bottom: 15px;
+  
+}
+.btn-run{
+    background-color:rgb(230, 83, 60) ;
+    padding: 16px 40px 16px 40px;
+    border-radius:42px;
+       
+}
+
+
+/* BMI CALCULATOR */
+
+.cal-text{
+    border: 2px solid white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+}
+
+.main-box-tbl{
+   padding: ;
+    padding-top: 50px;
+
+}
+
+.bmi-table{
+    color: white;
+    padding-left: 200px;
+}
+
+.bmi-table h2{
+ font-size:40px;
+}
+.bmi-table p{
+    color: #727272;
+}
+
+.table-form{
+   justify-content: space-between;
+    display: flex;
+    background-color: dimgray;
+}
+
+.table{
+    border: 1px solid black;
+    color: white;
+    padding-top: 30px;
+    padding-left: 90px;
+    padding-bottom: 60px;
+}
+
+
+table{
+    border-collapse: collapse;
+  
+ 
+}
+td{
+ color:darkgray ;
+}
+
+th, td{
+    padding: 15px 50px;
+}
+
+
+
+
+
+
+/* form */
+.form{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 100px;
+    width: 500px;
+    height:auto ;
+  
+}
+h2,p{
+    color: white;
+}
+input,select{
+   
+    margin-bottom: 5px;
+    padding:10px;
+    border-radius: 10px;
+}
+.male-bar{
+    padding: 10px 60px;
+}
+
+.long{
+    padding: 10px 110px;
+    width: ;
+   
+}
+
+.btn{
+    margin-bottom: 10px;
+    background-color:tomato ;
+    padding: 15px;
+    padding: 15px 60px;
+    border-radius: 20px;
+    
+}
+
+/* Meet Our Team */
+
+.main-meet-team{
+    padding-top: 30px;
+    background-color: black;
+}
+
+.meet-text{
+    text-align: center
+    ;
+}
+.bg-div{
+    margin: 0 100px;
+    width: 1300px;
+   border: 2px solid white;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.img{
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    border: 2px solid red;
+    width: 350px;
+    height: 250px;
+}
+
+.item-one{
+    background-image: url(../images/trainer1.png);
+}
+
+.item-two{
+    background-image: url(../images/trainer2.png);
+}
+.item-three{
+    background-image: url(../images/trainer3.png);
+}
+.item-four{
+    background-image: url(../images/trainer4.png);
+}
+.item-five{
+    background-image: url(../images/trainer5.png);
+}
+.item-six{
+    background-image: url(../images/trainer6.png);
+}
+
+
+/* footer-fitness */
