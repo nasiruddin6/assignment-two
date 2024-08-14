@@ -1,12 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+
+
+
+
 .work-sans-font {
+
   font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  background-color: rgba(17, 17, 17, 1);
+  background-color: black;
+  color: white;
 }
+
+.shape{
+    font-family: "Grey Qo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+  }
+  
+
+
 .header{
     margin: 0 100px;
     justify-content: space-between;
@@ -34,40 +51,40 @@
 /* navbar related styles */
 .navbar{
     
-    /* border: 2px solid white; */
+ 
     justify-content: space-between;
-    /* margin: 0 auto; */
+    margin: 0 auto;
 }
 
 .nav-item{
     list-style: none;
-    /* padding: 0 20px;    */
+    
 }
 
 .nav-links{
-    border: 0.1px solid rgba(128, 128, 128, 0.362);
+    width: 500px;
+    border: 2px solid rgba(128, 128, 128, 0.362);
     font-size: 20px;
-    margin:auto 0;
-    padding: 10px;
-    border-radius: 50px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7px;
 }
 
 .nav-link{
     text-decoration: none;
-    padding: 0 30px;
     
 }
 .nav-link-1{
     background-color:rgba(230, 83, 60, 1) ;
-    color: white;
-    padding: 9px 20px;
-    border-radius: 50px;
-    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 30px;
     
 }
 
 .banner{
-    border: 2px solid white;
+
     color: rgba(255, 255, 255, 1);
     width: 600px;
     height: auto; 
@@ -79,6 +96,7 @@
     .banner p{
         color:  rgba(255, 255, 255, 0.5);
         margin-bottom: 30px;
+        text-align: start;
     }
 
 .btn-1{
@@ -91,6 +109,7 @@
 }
 .btn-2{
     background-color: black;
+    border: 2px solid white;
     color: white;
     font-size: 20px;
     border-radius:40px;
@@ -100,7 +119,7 @@
 
 
 .banner-section {
-    border: 2px solid white;
+    
     justify-content: space-between;
     align-items: center;
     height: 620px;
@@ -112,7 +131,7 @@
 /* banner-picture1 */
 
 .images{
-    border: 2px solid red;
+    
     width: 450px;
     height: 100%;
     margin-right: 30px;
@@ -128,11 +147,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* text-align: center; */
     padding: 20px 20px;
     margin-top: 100px;
     margin-left: 280px;
-    background-color: rgba(48, 48, 48, 0.9);
+    background-color:rgba(128, 128, 128, 0.682);
     line-height: 5px;
     border: none;
     border-radius: 12px;
@@ -148,7 +166,7 @@
   padding: 15px 10px;
   margin-top: 150px;
   margin-left: -120px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(128, 128, 128, 0.682);
   border: none;
   
   border-radius: 12px;
@@ -159,119 +177,158 @@
 }
 
 .circle{
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
     background-color: rgb(230, 83, 60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* main-tag */
+/*changs your habits */
 
-.habits{
-    
-    margin: 0 100px;
+.main{
+    width: 1300px;
+    margin-top: 100px;
+    margin: 0 auto;
     color: white;
+}
+.habits-container{
+
+margin: 100px 0;
+
 }
 .text-box{
    text-align: center;
-   margin-top: 100px;
+}
+.text-box p{
+    color:#ffffff9f ;
 }
 .text-box h2{
     font-size: 50px;
 }
 .four-habits{
-    align-items: center;
-    border: 2px solid white;
+    margin-top: 50px;
     display: flex;
-   
+   justify-content: space-between;
 } 
 .img-round img{
-    align-items: center;
-   border-radius: 70px;
+    width: 100%;
+   border-radius: 100%;
 }
-/* .img-round h2{
-    text-align: center;
-} */
-/* .img-round p{
-    text-align: center;
-} */
+.img-round{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-round h2,p{
+text-align: center;
+}
+.img-round p{
+    color: #ffffff9f;
+}
+
 
 /* run-img-style */
 
 .run{
-    justify-content: space-between;
-    border: 2px solid white;
+
+    width: 100%;
+    height: 450px;
+    border-radius: 30px;
     display: flex;
+    justify-content: space-between;
     background-color: rgb(34, 34, 34);
-    margin-top: 100px;
 }
-.run-text h2{
+.run-text{
+    width: 500px;
     padding: 20px;
+    displ
+}
+
+
+.run-text h2{
+    font-size: 50px;
 }
 .run-text p{
-    padding: 20px;
+    /* padding: 35px; */
+    text-align: start;
+    color:#ffffff9f; ;
+}
+.run-img{
+    width: 500px;
+    padding: 30px;
+    /* border: 2px solid salmon; */
 }
 .run-img img{
-    border-radius: 50px;
-    padding-top: 15px;
-    padding-right:15px;
-    padding-bottom: 15px;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
   
 }
 .btn-run{
     background-color:rgb(230, 83, 60) ;
-    padding: 16px 40px 16px 40px;
+    padding: 16px 60px;
     border-radius:42px;
+    font-size: 25px;
+    color: white;
+    margin-top: 40px;
        
 }
 
 
 /* BMI CALCULATOR */
 
-.cal-text{
-    border: 2px solid white;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 80px;
-}
 
 .main-box-tbl{
-   padding: ;
-    padding-top: 50px;
-
+    width: 100%;
+    margin: 100px 0;
+   
 }
 
 .bmi-table{
+    width: 700px;
     color: white;
-    padding-left: 200px;
+    margin: 0 auto;
+  
 }
 
 .bmi-table h2{
- font-size:40px;
+ font-size:50px;
 }
 .bmi-table p{
-    color: #727272;
+    color: #9e9999;
+    text-align: start;
 }
 
 .table-form{
-   justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    margin: 50px auto;
+   justify-content: space-evenly;
     display: flex;
-    background-color: dimgray;
+    align-items: center;
+    background-color: rgba(64, 62, 62, 0.466);
 }
 
 .table{
-    border: 1px solid black;
     color: white;
-    padding-top: 30px;
-    padding-left: 90px;
-    padding-bottom: 60px;
+    height: 100%;
+    
 }
-
 
 table{
     border-collapse: collapse;
-  
- 
+}
+.table h2{
+    font-size: 35px;
+    font-weight: bolder;
+}
+th{
+    font-weight: bolder;
 }
 td{
  color:darkgray ;
@@ -279,98 +336,222 @@ td{
 
 th, td{
     padding: 15px 50px;
+    border: 2px solid white;
 }
-
-
-
-
-
 
 /* form */
 .form{
-    padding-top: 30px;
-    padding-left: 20px;
-    padding-right: 100px;
+    padding: 10px;
     width: 500px;
-    height:auto ;
-  
+    height: 100%;
 }
-h2,p{
-    color: white;
+
+.form h2{
+    font-size: 35px;
+    font-weight: bolder;
 }
-input,select{
-   
-    margin-bottom: 5px;
-    padding:10px;
+
+.form p{
+    text-align: start;
+}
+
+input{
+    margin-bottom: 10px;
+    padding:15px 10px;
     border-radius: 10px;
+    font-size: 18px;
+    background-color: rgb(68, 66, 66) ;
+    border: none;
 }
-.male-bar{
-    padding: 10px 60px;
+.sex-bar{
+    padding:15px;
+    width: 48.5%;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: rgb(68, 66, 66);
+    color: gray;
+    border: none;
 }
 
 .long{
-    padding: 10px 110px;
-    width: ;
+    width: 98%;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: rgb(68, 66, 66);
+    color: gray;
+    border: none;
    
 }
 
 .btn{
-    margin-bottom: 10px;
+    margin-top:  30px;
     background-color:tomato ;
-    padding: 15px;
-    padding: 15px 60px;
-    border-radius: 20px;
+    padding: 13px 70px;
+    border-radius: 30px;
+    font-weight: 700px;
+    font-size: 22px;
+    color: white;
+
     
 }
 
 /* Meet Our Team */
 
 .main-meet-team{
-    padding-top: 30px;
     background-color: black;
 }
 
 .meet-text{
-    text-align: center
-    ;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.meet-text h2{
+    font-size: 50px;  
+}
+.meet-text p{
+    color:gray;
 }
 .bg-div{
-    margin: 0 100px;
+    margin: 0 auto;
     width: 1300px;
-   border: 2px solid white;
-    
+   border-radius: 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 25px;
+    padding: 25px;
+    background-color: rgba(128, 128, 128, 0.515);
 }
 .img{
-    background-position: center;
-    background-size: cover;
+    position:relative ;
     margin: 0 auto;
-    border: 2px solid red;
-    width: 350px;
-    height: 250px;
+    border-radius: 30px;
+    width: 410px;
+    height: 350px;
+}
+.img h2{
+position: absolute;
+left: 10px;
+bottom: 20px;
+}
+.img p{
+    position: absolute;
+    left: 10px;
+    bottom: 5px;
+    color: rgb(159, 155, 155);
 }
 
 .item-one{
     background-image: url(../images/trainer1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-
 .item-two{
     background-image: url(../images/trainer2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .item-three{
     background-image: url(../images/trainer3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .item-four{
     background-image: url(../images/trainer4.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .item-five{
     background-image: url(../images/trainer5.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .item-six{
     background-image: url(../images/trainer6.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
 /* footer-fitness */
+
+footer{
+    width: 100%;
+    height: 450px;
+    margin-top: 100px;
+    background-color: #72727263;
+}
+.footer h2{
+    font-size: 25px;
+}
+
+.footer-container{
+height: 100%;
+width:90%;
+margin: 0 auto;
+
+}
+
+
+.footer-items-content{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.fitness{
+    width: 500px;
+}
+
+.fitness h2{
+    color:#E6533C;
+    font-size: 60px;
+    font: bolder;
+    font-style: italic;
+}
+
+.fitness p{
+    color: #ffffff8a;
+    text-align: start;
+
+}
+
+.footer-second{
+    width: 300px;
+    text-align: start;
+
+}
+.footer-second h2{
+    font-size: 40px;
+}
+.footer-second p{
+font-size: 20px;
+color:#ffffff8a;
+text-align: start;
+}
+.footer-third{
+    width: 300px;
+}
+.footer-third h2{
+    font-size: 40px;   
+}
+.footer-third p{
+    font-size: 20px;
+    color: #ffffff8a;
+    text-align: start;
+}
+.footer-end{
+    padding-top: 20px;
+    text-align: center;
+    border-top: 1px solid white; 
+    color: gray;
+    font-size: 20px;
+}
