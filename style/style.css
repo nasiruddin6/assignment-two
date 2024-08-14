@@ -22,7 +22,9 @@
     font-size: 100px;
   }
   
-
+.list-icon{
+display: none;
+}
 
 .header{
     margin: 0 100px;
@@ -48,10 +50,7 @@
 }
 
 /* header styles */
-/* navbar related styles */
 .navbar{
-    
- 
     justify-content: space-between;
     margin: 0 auto;
 }
@@ -116,7 +115,6 @@
     padding: 15px 40px;
 
 }
-
 
 .banner-section {
     
@@ -254,7 +252,6 @@ text-align: center;
     font-size: 50px;
 }
 .run-text p{
-    /* padding: 35px; */
     text-align: start;
     color:#ffffff9f; ;
 }
@@ -278,6 +275,10 @@ text-align: center;
     margin-top: 40px;
        
 }
+
+
+/* Trainings and Exercises */
+
 
 
 /* BMI CALCULATOR */
@@ -411,6 +412,7 @@ input{
 }
 .meet-text p{
     color:gray;
+    text-align: center;
 }
 .bg-div{
     margin: 0 auto;
@@ -554,4 +556,320 @@ text-align: start;
     border-top: 1px solid white; 
     color: gray;
     font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px){
+ 
+    body{
+        /* padding: 0; */
+        margin: 0;
+        /* border: 5px solid red; */
+    }
+.header{
+    width: 90%;
+    margin:0 auto;
+    padding: 0;
+
+}
+
+.brand{
+   font-size: 35px;
+}
+
+
+/* header styles */
+.navbar{
+    justify-content: space-between;
+    /* border: 2px solid white; */
+   
+}
+
+.list-icon{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+
+.nav-links{
+    display: none;
+}
+
+.banner{
+    padding: 0 30px;
+    color: rgba(255, 255, 255, 1);
+    width: 100%;
+    height: auto; 
+    /* border: 2px solid green; */
+    margin-bottom: 50px;
+    }
+
+    .banner h1{
+        font-size: 60px;
+    }
+
+.banner-section {
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+
+    
+}
+
+/* banner-picture1 */
+
+.images{
+    /* border: 2px solid rgb(218, 182, 50); */
+    width: 100%;
+    height: 750px;
+    margin: 0 auto;
+    background-position: top;
+    
+}
+
+.img-box-one{
+ margin-top: 50px;   
+}
+
+.img-box-two{
+ margin-left: 30px;
+ margin-top: 180px;  
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main{
+    width: 90%;
+    margin: 0 auto;
+
+}
+.habits-container{
+/* border: 2px solid white; */
+margin: 100px 0;
+
+}
+
+.text-box h2, p{
+    text-align: center;
+}
+
+.four-habits{
+    /* border: 4px solid green; */
+    flex-direction: column;
+   
+} 
+
+.img-round{
+    /* border: 2px solid white; */
+    width: 300px;
+    margin: 20px auto;
+}
+
+
+/* <!-- Run an Extra Mile Easily --> */
+
+
+.run{
+
+    width: 100%;
+    height: 100%;
+    background-color: rgb(34, 34, 34);
+    flex-direction: column;
+}
+.run-text{
+    width: 100%;
+}
+.run-img{
+    width: 90%;
+    padding: 20px;
+    /* border: 2px solid salmon; */
+    margin: 0 auto;
+}
+
+.btn-run{
+   width: 90%;
+   margin: 0 auto;
+      
+}
+
+
+
+
+
+
+
+/* BMI Calculator */
+
+.main-box-tbl{
+    width: 100%;
+   
+}
+
+.bmi-table{
+    /* border: 2px solid white; */
+    width: 90%;
+    margin: 0 auto;
+  
+}
+.table-form{
+    /* border: 5px solid green; */
+    padding: 30px 0;
+    width: 100%;
+    height: 100%;
+    margin: 50px 0;
+    flex-direction: column;
+    background-color: rgba(64, 62, 62, 0.466);
+}
+
+.table{
+    width: 90%;
+    /* border: 2px solid yellow; */
+    color: white;
+    height: 100%;
+    
+}
+
+
+/* form */
+.form{
+    /* border: 2px solid green; */
+    padding: 10px;
+    width: 500px;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+/* Meet Our Team */
+
+.main-meet-team{
+    width: 100%;
+    /* border: 3px solid white; */
+    padding: 0;
+    margin: 0 auto;
+
+
+}
+
+.meet-text{
+    width: 90%;
+    /* border: 2px solid green; */
+    text-align: center;
+    margin: 0 auto;
+}
+.bg-div{
+    /* border: 2px solid gold; */
+    margin: 30px auto;
+    width: 80%;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+    padding: 40px 30px;
+}
+.img{
+    
+    margin: 0 auto;
+    width: 90%;
+}
+
+
+.item-one{
+  
+    background-position:top;
+    
+}
+.item-two{
+    background-position:top;
+}
+.item-three{
+    background-position:top;
+}
+.item-four{
+    background-position:top;
+}
+.item-five{
+    background-position:top;
+}
+.item-six{
+    background-position:top;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* footer-fitness */
+
+.footer{
+    width: 100%;
+    height: 100%;
+    background-color: #72727263;
+    margin: 0 auto;
+}
+.footer-container{
+    /* border: 2px solid white; */
+height: 100%;
+width:90%;
+margin: 0 auto;
+
+}
+
+
+.footer-items-content{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 100%;
+    margin-bottom: 50px;
+    flex-direction: column;
+
+    
+}
+.fitness{
+    width: 100%;
+}
+
+.footer-second{
+    width: 100%;
+
+}
+
+.footer-third{
+    width: 100%;
+}
+
 }
