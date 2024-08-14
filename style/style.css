@@ -572,9 +572,7 @@ text-align: start;
 @media screen and (max-width:576px){
  
     body{
-        /* padding: 0; */
         margin: 0;
-        /* border: 5px solid red; */
     }
 .header{
     width: 90%;
@@ -591,7 +589,6 @@ text-align: start;
 /* header styles */
 .navbar{
     justify-content: space-between;
-    /* border: 2px solid white; */
    
 }
 
@@ -611,7 +608,6 @@ text-align: start;
     color: rgba(255, 255, 255, 1);
     width: 100%;
     height: auto; 
-    /* border: 2px solid green; */
     margin-bottom: 50px;
     }
 
@@ -620,7 +616,6 @@ text-align: start;
     }
 
 .banner-section {
-    /* border: 2px solid red; */
     margin: 0 auto;
     width: 100%;
     height: 100%;
@@ -632,7 +627,6 @@ text-align: start;
 /* banner-picture1 */
 
 .images{
-    /* border: 2px solid rgb(218, 182, 50); */
     width: 100%;
     height: 750px;
     margin: 0 auto;
@@ -648,18 +642,6 @@ text-align: start;
  margin-left: 30px;
  margin-top: 180px;  
 }
-    
-
-
-
-
-
-
-
-
-
-
-
 
 
 .main{
@@ -717,11 +699,6 @@ margin: 100px 0;
 }
 
 
-
-
-
-
-
 /* BMI Calculator */
 
 .main-box-tbl{
@@ -730,13 +707,11 @@ margin: 100px 0;
 }
 
 .bmi-table{
-    /* border: 2px solid white; */
     width: 90%;
     margin: 0 auto;
   
 }
 .table-form{
-    /* border: 5px solid green; */
     padding: 30px 0;
     width: 100%;
     height: 100%;
@@ -747,7 +722,6 @@ margin: 100px 0;
 
 .table{
     width: 90%;
-    /* border: 2px solid yellow; */
     color: white;
     height: 100%;
     
@@ -756,7 +730,6 @@ margin: 100px 0;
 
 /* form */
 .form{
-    /* border: 2px solid green; */
     padding: 10px;
     width: 500px;
     height: 100%;
@@ -774,21 +747,16 @@ margin: 100px 0;
 
 .main-meet-team{
     width: 100%;
-    /* border: 3px solid white; */
     padding: 0;
     margin: 0 auto;
-
-
 }
 
 .meet-text{
     width: 90%;
-    /* border: 2px solid green; */
     text-align: center;
     margin: 0 auto;
 }
 .bg-div{
-    /* border: 2px solid gold; */
     margin: 30px auto;
     width: 80%;
     grid-template-columns: repeat(1, 1fr);
@@ -800,7 +768,6 @@ margin: 100px 0;
     margin: 0 auto;
     width: 90%;
 }
-
 
 .item-one{
   
@@ -825,14 +792,6 @@ margin: 100px 0;
 }
 
 
-
-
-
-
-
-
-
-
 /* footer-fitness */
 
 .footer{
@@ -842,7 +801,6 @@ margin: 100px 0;
     margin: 0 auto;
 }
 .footer-container{
-    /* border: 2px solid white; */
 height: 100%;
 width:90%;
 margin: 0 auto;
@@ -851,7 +809,6 @@ margin: 0 auto;
 
 
 .footer-items-content{
-    /* border: 2px solid red; */
     height: 100%;
     width: 100%;
     margin-bottom: 50px;
