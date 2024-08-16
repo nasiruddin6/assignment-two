@@ -30,6 +30,7 @@ display: none;
     margin: 0 100px;
     justify-content: space-between;
 }
+
 /* shared styles */
 .display-flex{
     display: flex;
@@ -258,7 +259,6 @@ text-align: center;
 .run-img{
     width: 500px;
     padding: 30px;
-    /* border: 2px solid salmon; */
 }
 .run-img img{
   width: 100%;
@@ -277,8 +277,99 @@ text-align: center;
 }
 
 
-/* Trainings and Exercises */
+/* Trainings and Exercises- none */
 
+
+
+/* Weekend Activities */
+
+.weekend{
+    margin: 100px auto;
+    padding: 50px 0;
+    width: 1300px;
+    height: 100%;
+    background-color:rgba(157, 157, 157, 0.826);
+}
+
+.text-weekend{
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+}
+
+
+.text-weekend h2{
+   font-size: 50px;
+}
+
+
+.tree{
+    border-radius: 20px;
+    position:relative ;
+    margin: 0 auto;
+    width: 350px;
+    height: 300px;
+
+}
+.tree h3{
+    margin-bottom: 0;
+    padding-left: 10px;
+    position: absolute;
+    left: 10px;
+    bottom:10px;
+    color: rgb(242, 221, 221);
+}
+
+.weekend-imgs{
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 1100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.weekend-img-one{
+    background-image: url(../images/weekend\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.weekend-img-two{
+    background-image: url(../images/weekend\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.weekend-img-three{
+    background-image: url(../images/weekend\ \(3\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.weekend-img-four{
+    background-image: url(../images/weekend\ \(4\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.weekend-img-five{
+    background-image: url(../images/weekend\ \(5\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.weekend-img-six{
+    background-image: url(../images/weekend\ \(6\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 
 /* BMI CALCULATOR */
@@ -650,7 +741,7 @@ text-align: start;
 
 }
 .habits-container{
-/* border: 2px solid white; */
+
 margin: 100px 0;
 
 }
@@ -660,13 +751,12 @@ margin: 100px 0;
 }
 
 .four-habits{
-    /* border: 4px solid green; */
     flex-direction: column;
    
 } 
 
 .img-round{
-    /* border: 2px solid white; */
+
     width: 300px;
     margin: 20px auto;
 }
@@ -688,7 +778,6 @@ margin: 100px 0;
 .run-img{
     width: 90%;
     padding: 20px;
-    /* border: 2px solid salmon; */
     margin: 0 auto;
 }
 
@@ -697,6 +786,46 @@ margin: 100px 0;
    margin: 0 auto;
       
 }
+
+
+
+
+/* Weekend Activities */
+
+.weekend{
+  
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-bottom: 40px;
+    width: 100%;
+    height: 100%;
+    background-color:gray;
+}
+.text-weekend{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.text-weekend h2{
+    font-size: 40px;
+ }
+
+.weekend-imgs{
+    margin: 0 auto;
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /* BMI Calculator */
